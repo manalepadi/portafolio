@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inter&display=swap');
+
+:root{
+	--color-texto:#000000;
+	--color-azul:#087A98;
+	--color-gris:#757575;
+	--color-blanco:#fff;
+	--color-titulos:#222;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+header{
+	background-color: #0382AE;
+	position: absolute;
+	width: 100%;
+	z-index: 9999999;
+}
+
+#hero{
+	background-image: url("../img/fondo.PNG");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 12% 0;
+	text-align: center;
+}
+
+#hero h1{
+	font-family: 'Bakbak One', cursive;
+}
+
+#skill{
+	background-color: #f4f4f4;
+	font-family: 'Bakbak One', cursive;
+	text-align: center;
+	padding-top: 12%,0;
+}
+
+
+.subtitulo{
+	font-size: 16px;
+	color: #757575;
+	text-align: center;
+	margin-bottom: 40px;
+	font-style: italic;
+}
+
+#skill h4{
+	font-family: 'Bakbak One', cursive;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #0;
+	margin-bottom: 7%;
+}
+
+#skill p{
+	font-family: 'Inter', sans-serif;
+	font-size: 15px;
+}
+
+#skill i{
+	color: #300AB3;
+	font-size: 40px;
+	margin-bottom: 12%;
+}
+
+#top6{
+	background-color: #FFFFFF;
+	padding: 12% 0;
+	color: #6F6E6E;
+	text-align: center;
+}
+
+.fotos{
+	position:relative;
+}
+
+.capa-fotos{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	background-color: #1FB7CC;
+	color: #FFFFFF;
+	opacity: 0;
+	transition: all 0.5s easy-in-out;
+}
+
+.capa-fotos:hover{
+	opacity: 1;
+	transition: all 0.5s easy-in-out;
+}
+
+.capa-fotos:hover h5{
+	transform: translateY(0px);
+	transition: all 0.5s easy-in-out;
+}
+
+.capa-fotos h5 {
+	transform: translateY(20px);
+	transition: all 0.5s easy-in-out;
+}
+
+.capa-fotos:hover p{
+	transform: translateY(20px);
+	transition: all 0.5s easy-in-out;
+}
+
+.capa-fotos p{
+	transform: translateY(0px);
+	transition: all 0.5s easy-in-out;
+}
+
+	
+	
+	
